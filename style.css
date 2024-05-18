@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: "Inter", sans-serif;
+  background: linear-gradient(rgb(214, 226, 240) 0%, rgb(59, 48, 108) 100%);
+  font-size: 14px;
+  height: 100vh;
+}
+.card {
+  width: 300px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 20vh;
+
+  text-align: center;
+  box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.2);
+}
+
+.profile img {
+  width: 100%;
+  border-radius: 10px;
+
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(35, 54, 88, 0.25);
+  filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.125));
+  background-color: rgba(35, 54, 88, 0.25);
+}
+
+.title h3 {
+  font-size: 23px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.title p {
+  font-size: 17px;
+  color: hsl(240, 9%, 68%);
+  margin-top: 20px;
+}
+
+.social-contact {
+  margin-top: 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.8);
+  filter: drop-shadow(0 30px 10px rgba(0, 0, 0, 0.125));
+}
+
+.fa {
+  width: 20px;
+  padding: 14px;
+}
+
+.fa-facebook-official {
+  color: black;
+}
+.fa-twitter {
+  color: black;
+}
+.fa-instagram {
+  color: black;
+}
+
+.attribution {
+ 
+  font-size: 11px;
+  text-align: center;
+  margin-top: 18px;
+  width: 100%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
